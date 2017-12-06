@@ -46,10 +46,26 @@
 		93ED9BD11FD859C9000AFAB9 /* cryptowatch-swift */ = {
 			isa = PBXGroup;
 			children = (
+				93ED9BDB1FD859DA000AFAB9 /* Client */,
+				93ED9BDA1FD859D1000AFAB9 /* Models */,
 				93ED9BD21FD859C9000AFAB9 /* cryptowatch_swift.h */,
 				93ED9BD31FD859C9000AFAB9 /* Info.plist */,
 			);
 			path = "cryptowatch-swift";
+			sourceTree = "<group>";
+		};
+		93ED9BDA1FD859D1000AFAB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93ED9BDB1FD859DA000AFAB9 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
