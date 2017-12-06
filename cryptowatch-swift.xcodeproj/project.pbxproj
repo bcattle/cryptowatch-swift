@@ -8,12 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		93ED9BD41FD859C9000AFAB9 /* cryptowatch_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 93ED9BD21FD859C9000AFAB9 /* cryptowatch_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93ED9BDE1FD85C25000AFAB9 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BDD1FD85C25000AFAB9 /* Asset.swift */; };
+		93ED9BE01FD85D9F000AFAB9 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BDF1FD85D9F000AFAB9 /* Market.swift */; };
+		93ED9BE21FD85F11000AFAB9 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BE11FD85F11000AFAB9 /* Pair.swift */; };
+		93ED9BE41FD85F4D000AFAB9 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BE31FD85F4D000AFAB9 /* ApiClient.swift */; };
+		93ED9BE61FD85F54000AFAB9 /* ApiEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BE51FD85F54000AFAB9 /* ApiEndpoints.swift */; };
+		93ED9BE81FD86040000AFAB9 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BE71FD86040000AFAB9 /* Exchange.swift */; };
+		93ED9BEA1FD86116000AFAB9 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BE91FD86116000AFAB9 /* Price.swift */; };
+		93ED9BEC1FD861BE000AFAB9 /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BEB1FD861BE000AFAB9 /* Trade.swift */; };
+		93ED9BEE1FD8624D000AFAB9 /* OrderBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BED1FD8624D000AFAB9 /* OrderBook.swift */; };
+		93ED9BF01FD862C2000AFAB9 /* OHLC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BEF1FD862C2000AFAB9 /* OHLC.swift */; };
+		93ED9BF21FD863CE000AFAB9 /* Aggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED9BF11FD863CE000AFAB9 /* Aggregate.swift */; };
+		B3BD315A48E33B6DFB06BBDE /* Pods_cryptowatch_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE38DD15716692073A32C598 /* Pods_cryptowatch_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D3E531528793BFB4FFF66F5 /* Pods-cryptowatch-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptowatch-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-cryptowatch-swift/Pods-cryptowatch-swift.release.xcconfig"; sourceTree = "<group>"; };
+		8722DB74CC11B55C0ED3EAA3 /* Pods-cryptowatch-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cryptowatch-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cryptowatch-swift/Pods-cryptowatch-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		93ED9BCF1FD859C9000AFAB9 /* cryptowatch_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cryptowatch_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93ED9BD21FD859C9000AFAB9 /* cryptowatch_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cryptowatch_swift.h; sourceTree = "<group>"; };
 		93ED9BD31FD859C9000AFAB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93ED9BDD1FD85C25000AFAB9 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		93ED9BDF1FD85D9F000AFAB9 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		93ED9BE11FD85F11000AFAB9 /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		93ED9BE31FD85F4D000AFAB9 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		93ED9BE51FD85F54000AFAB9 /* ApiEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpoints.swift; sourceTree = "<group>"; };
+		93ED9BE71FD86040000AFAB9 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		93ED9BE91FD86116000AFAB9 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		93ED9BEB1FD861BE000AFAB9 /* Trade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
+		93ED9BED1FD8624D000AFAB9 /* OrderBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBook.swift; sourceTree = "<group>"; };
+		93ED9BEF1FD862C2000AFAB9 /* OHLC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHLC.swift; sourceTree = "<group>"; };
+		93ED9BF11FD863CE000AFAB9 /* Aggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggregate.swift; sourceTree = "<group>"; };
+		DE38DD15716692073A32C598 /* Pods_cryptowatch_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cryptowatch_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3BD315A48E33B6DFB06BBDE /* Pods_cryptowatch_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27B86CF258F1B4522E0ED959 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8722DB74CC11B55C0ED3EAA3 /* Pods-cryptowatch-swift.debug.xcconfig */,
+				5D3E531528793BFB4FFF66F5 /* Pods-cryptowatch-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B5995690703931E5149E873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE38DD15716692073A32C598 /* Pods_cryptowatch_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93ED9BC51FD859C9000AFAB9 = {
 			isa = PBXGroup;
 			children = (
 				93ED9BD11FD859C9000AFAB9 /* cryptowatch-swift */,
 				93ED9BD01FD859C9000AFAB9 /* Products */,
+				27B86CF258F1B4522E0ED959 /* Pods */,
+				5B5995690703931E5149E873 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +103,15 @@
 		93ED9BDA1FD859D1000AFAB9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				93ED9BDD1FD85C25000AFAB9 /* Asset.swift */,
+				93ED9BDF1FD85D9F000AFAB9 /* Market.swift */,
+				93ED9BE11FD85F11000AFAB9 /* Pair.swift */,
+				93ED9BE71FD86040000AFAB9 /* Exchange.swift */,
+				93ED9BE91FD86116000AFAB9 /* Price.swift */,
+				93ED9BEB1FD861BE000AFAB9 /* Trade.swift */,
+				93ED9BED1FD8624D000AFAB9 /* OrderBook.swift */,
+				93ED9BEF1FD862C2000AFAB9 /* OHLC.swift */,
+				93ED9BF11FD863CE000AFAB9 /* Aggregate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -64,6 +119,8 @@
 		93ED9BDB1FD859DA000AFAB9 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				93ED9BE31FD85F4D000AFAB9 /* ApiClient.swift */,
+				93ED9BE51FD85F54000AFAB9 /* ApiEndpoints.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -86,10 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93ED9BD71FD859C9000AFAB9 /* Build configuration list for PBXNativeTarget "cryptowatch-swift" */;
 			buildPhases = (
+				D14B5D8FF15DBF02164DCEB1 /* [CP] Check Pods Manifest.lock */,
 				93ED9BCA1FD859C9000AFAB9 /* Sources */,
 				93ED9BCB1FD859C9000AFAB9 /* Frameworks */,
 				93ED9BCC1FD859C9000AFAB9 /* Headers */,
 				93ED9BCD1FD859C9000AFAB9 /* Resources */,
+				36C186E78CAE101C529A22FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,6 +170,7 @@
 				TargetAttributes = {
 					93ED9BCE1FD859C9000AFAB9 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,11 +202,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36C186E78CAE101C529A22FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cryptowatch-swift/Pods-cryptowatch-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14B5D8FF15DBF02164DCEB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cryptowatch-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93ED9BCA1FD859C9000AFAB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93ED9BDE1FD85C25000AFAB9 /* Asset.swift in Sources */,
+				93ED9BEA1FD86116000AFAB9 /* Price.swift in Sources */,
+				93ED9BE01FD85D9F000AFAB9 /* Market.swift in Sources */,
+				93ED9BEE1FD8624D000AFAB9 /* OrderBook.swift in Sources */,
+				93ED9BE81FD86040000AFAB9 /* Exchange.swift in Sources */,
+				93ED9BF01FD862C2000AFAB9 /* OHLC.swift in Sources */,
+				93ED9BE61FD85F54000AFAB9 /* ApiEndpoints.swift in Sources */,
+				93ED9BE21FD85F11000AFAB9 /* Pair.swift in Sources */,
+				93ED9BF21FD863CE000AFAB9 /* Aggregate.swift in Sources */,
+				93ED9BEC1FD861BE000AFAB9 /* Trade.swift in Sources */,
+				93ED9BE41FD85F4D000AFAB9 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +375,9 @@
 		};
 		93ED9BD81FD859C9000AFAB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8722DB74CC11B55C0ED3EAA3 /* Pods-cryptowatch-swift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -282,6 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.bcattle.cryptowatch-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,7 +399,9 @@
 		};
 		93ED9BD91FD859C9000AFAB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3E531528793BFB4FFF66F5 /* Pods-cryptowatch-swift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
